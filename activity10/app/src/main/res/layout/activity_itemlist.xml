@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    tools:context=".MainActivity"
+    android:id="@+id/rl2">
+
+    <ImageView
+        android:id="@+id/ivv"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/iv12"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-1dp" />
+
+    <ImageView
+        android:id="@+id/iv12"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ivv" />
+    <TextView
+        android:id="@+id/tv_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小明"
+        android:layout_toRightOf="@+id/iv12"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_content2"
+        android:layout_toRightOf="@id/iv12"
+        android:layout_below="@+id/tv_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="要不要一起去吃饭?"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tv_date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2021/3/7"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>
